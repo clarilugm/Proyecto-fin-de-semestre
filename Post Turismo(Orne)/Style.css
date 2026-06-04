@@ -1,0 +1,21 @@
+ :root {
+      --espresso:  #3d1f0d;
+      --mahogany:  #6b3320;
+      --caramel:   #a0622a;
+      --sand:      #c8956a;
+      --latte:     #dfc09a;
+      --cream:     #f2e6d5;
+      --parchment: #faf4ec;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background: var(--parchment);
+      color: var(--mahogany);
+    }
+
+    /* Navbar */
+    nav { background: var(--espresso); }
+    .navbar-brand { font-family: 'Playfair Display', serif; color: var(--latte) !important; }
+    .nav-link { color: var(--sand) !important; }
+    .nav-link:hover { color: var(--latte) !important; }
