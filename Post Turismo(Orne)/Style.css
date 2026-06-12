@@ -58,7 +58,29 @@
       margin: 16px 0;
       border-radius: 0 6px 6px 0;
     }
+    
+.curiosidades {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
 
+p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #185FA5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
 
 
      /* Comentarios */
