@@ -94,3 +94,12 @@
     }
     .comment-card strong { color: var(--mahogany); }
     .comment-card small { color: var(--sand); margin-left: 8px; }
+
+    footer {
+  background-color: #3d1f0d;
+  color: #c8956a;
+  text-align: center;
+  padding: 20px;
+  margin-top: 3rem;
+  font-size: 13px;
+}
