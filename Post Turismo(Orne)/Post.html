@@ -21,7 +21,7 @@
           <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="../pages/post-musica.html">Música</a></li>
           <li class="nav-item"><a class="nav-link" href="../postComida/comida.html">Comidas</a></li>
-          <li class="nav-item"><a class="nav-link" href="../Post-Cine/index.html">Cine</a></li>
+          <li class="nav-item"><a class="nav-link" href="../Post-Cine/index.html">Series</a></li>
           <li class="nav-item"><a class="nav-link" href="Post.html">Turismo</a></li>
 
         </ul>
@@ -67,7 +67,10 @@
     <h2>El dato que sorprende</h2>
     <p>A pesar de ser el país más visitado, Francia no es el que más dinero genera en turismo. Ese título es de Estados Unidos con 215 mil millones de dólares. Francia recaudó 77 mil millones. ¿Ser el más visitado es lo mismo que ser el más deseado?</p>
    
-  
+  <div class="curiosidades">
+  <p id="dato">¿Sabías que Francia lleva más de 30 años siendo el país más visitado del mundo?</p>
+  <button onclick="mostrarDato()">Otro dato</button>
+</div>
 
     <!-- Comentarios -->
     <div class="comentarios">
@@ -85,7 +88,25 @@
     © 2026 CulturArte · Bootstrap · JavaScript · HTML & CSS
   </footer>
 
- 
+  <script>
+      const datos = [
+        "Francia lleva más de 30 años siendo el país más visitado del mundo.",
+        "En 2024 superó los 100 millones de turistas en un solo año, un récord histórico.",
+        "A pesar de ser el más visitado, Estados Unidos genera casi 3 veces más dinero en turismo.",
+        "En agosto, hasta los propios franceses se van de vacaciones y París se vacía.",
+        "Un almuerzo en Francia puede durar dos horas. Pedir la cuenta antes de tiempo se considera de mala educación."
+      ];
+
+      let indice = 0;
+
+      function mostrarDato() {
+        indice = (indice + 1) % datos.length;
+        document.getElementById("dato").textContent = datos[indice];
+      }
+    </script>
+
+  </body>
+</html>
     
 </body>
 </html>
