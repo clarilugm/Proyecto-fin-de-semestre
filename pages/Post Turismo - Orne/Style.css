@@ -58,7 +58,29 @@
       margin: 16px 0;
       border-radius: 0 6px 6px 0;
     }
+    
+.curiosidades {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
 
+p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: #185FA5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
 
 
      /* Comentarios */
@@ -94,3 +116,12 @@
     }
     .comment-card strong { color: var(--mahogany); }
     .comment-card small { color: var(--sand); margin-left: 8px; }
+
+    footer {
+  background-color: #3d1f0d;
+  color: #c8956a;
+  text-align: center;
+  padding: 20px;
+  margin-top: 3rem;
+  font-size: 13px;
+}
