@@ -1,3 +1,7 @@
+/* =========================================
+   ESTILOS GENERALES
+   ========================================= */
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #faf4ec;
@@ -18,6 +22,11 @@ body {
 
 .marca:hover {
   color: #f2e6d5;
+}
+
+.activo {
+  color: #f2e6d5 !important;
+  font-weight: bold;
 }
 
 .enlace-nav {
@@ -226,8 +235,9 @@ body {
   font-size: 13px;
 }
 
+
 /* =========================================
-   --- ESTILOS: POST MÚSICA ---
+   ESTILOS: POST MÚSICA
    ========================================= */
 
 .contenedor-lectura {
@@ -235,18 +245,24 @@ body {
   margin: 0 auto;
 }
 
-.banner{
-    width: 100%;
-    height: 500px; /* ajusta la altura que quieras */
-    overflow: hidden;
+.banner {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
 }
 
-.img-post-hero{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;      /* llena el banner */
-    object-position: center; /* centra la imagen */
-    display: block;
+.img-post-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.img-bts1 {
+  width: 100%;
+  height: auto;
+ 
 }
 
 .texto-post {
@@ -267,3 +283,172 @@ body {
 .lista-datos li {
   margin-bottom: 12px;
 }
+
+
+/* =========================================
+   ESTILOS: POST SERIES
+   ========================================= */
+
+.hero {
+  position: relative;
+  height: 480px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-texto {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: white;
+}
+
+.hero-texto p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #dfc09a;
+  margin-bottom: 8px;
+}
+
+.hero-texto h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.hero-texto small {
+  font-size: 13px;
+  color: #f2e6d5;
+}
+
+.articulo {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.articulo p {
+  font-size: 15px;
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: #3d1f0d;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #dfc09a;
+  padding-bottom: 6px;
+}
+
+
+/* =========================================
+   ESTILOS: POST TURISMO
+   ========================================= */
+
+.hero-text {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: white;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+}
+
+.article {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 16px;
+}
+
+.tip {
+  background: #f2e6d5;
+  border-left: 4px solid #a0622a;
+  padding: 12px 19px;
+  margin: 16px 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.curiosidades {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.comentarios {
+  margin-top: 2.5rem;
+  border-top: 2px solid #dfc09a;
+  padding-top: 1.5rem;
+}
+
+.comentarios h3 {
+  font-family: 'Playfair Display', serif;
+  color: #3d1f0d;
+  margin-bottom: 1rem;
+}
+
+.comentarios input,
+.comentarios textarea {
+  width: 100%;
+  background: white;
+  border: 1px solid #c8956a;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 11px;
+  color: #6b3320;
+}
+
+.comentarios textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+#btn-comentar {
+  background: #3d1f0d;
+  color: #dfc09a;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#error-msg {
+  color: #9b3a3a;
+  font-size: 14px;
+  display: none;
+  margin-bottom: 8px;
+}
+
+.comment-card {
+  background: white;
+  border: 1px solid #dfc09a;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-top: 14px;
+}
+
+.comment-card strong {
+  color: #6b3320;
+}
+
+.comment-card small {
+  color: #c8956a;
+  margin-left: 8px;
+}
+
+
+/* =========================================
+   ESTILOS: POST COMIDA
+   ========================================= */
+
