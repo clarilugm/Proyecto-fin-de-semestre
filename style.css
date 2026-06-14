@@ -259,6 +259,12 @@ body {
   display: block;
 }
 
+.img-bts1 {
+  width: 100%;
+  height: auto;
+ 
+}
+
 .texto-post {
   line-height: 1.8;
   margin-bottom: 16px;
