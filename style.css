@@ -452,3 +452,62 @@ body {
    ESTILOS: POST COMIDA
    ========================================= */
 
+.cabezal-post {
+  background: var(--espresso);
+  color: white;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.cabezal-post h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin-bottom: 0.4rem;
+}
+
+.cabezal-post .meta {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.volver {
+  display: inline-block;
+  color: var(--espresso);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.volver:hover {
+  color: #c06b3a;
+}
+
+.hero-comida {
+  position: relative;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.texto-portada-comida {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+}
+
+.texto-portada-comida h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.texto-portada-comida p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
