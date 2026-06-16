@@ -1,6 +1,6 @@
 # CulturArte - Blog Colaborativo
 
-##  Descripción
+## Descripción
 
 **CulturArte** es un blog interactivo creado por cuatro estudiantes como proyecto final de semestre para las materias de Front-end y Back-end. Es un espacio digital donde el arte, la cultura y la vida cotidiana se encuentran. Cada integrante del equipo contribuyó con un artículo original sobre temas que le apasionan, combinando investigación, diseño y desarrollo web.
 
@@ -13,7 +13,7 @@ El proyecto fue desarrollado colaborativamente por:
 - **Clara García** - Artículo sobre Gastronomía: *"La cocina italiana: tradición en cada plato"*
 - **Nadia Rivero** - Artículo sobre Series: *"Euphoria: por qué sigue siendo una de las mejores series"*
 
-##  Características Principales
+## Características Principales
 
 - **Diseño responsivo**: Interfaz moderna y adaptable a diferentes dispositivos
 - **Navegación intuitiva**: Menú fácil de usar para acceder a todas las secciones
@@ -30,7 +30,7 @@ El proyecto fue desarrollado colaborativamente por:
 - **Google Fonts**: Tipografías personalizadas (Playfair Display, Montserrat)
 - **JavaScript**: Interactividad y funcionalidad dinámica
 
-##  Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Proyecto-fin-de-semestre/
@@ -46,7 +46,7 @@ Proyecto-fin-de-semestre/
     └── post-series.html    # Artículo sobre Euphoria (Nadia)
 ```
 
-##  Contenido del Blog
+## Contenido del Blog
 
 ###  Música - K-pop Global
 Noelia explora cómo la industria musical coreana conquistó el mundo. Analiza el fenómeno del K-pop, el impacto de BTS como grupo revolucionario, y cómo logró romper barreras de idioma y cultura para convertirse en un movimiento global.
@@ -75,7 +75,7 @@ Clara profundiza en la cocina italiana, una de las más populares del mundo. Ana
 - Espresso
 - Valores de la cocina italiana: familia y tradición
 
-### 📺 Entretenimiento - Euphoria
+### Entretenimiento - Euphoria
 Nadia presenta un análisis profundo de la serie HBO "Euphoria", explorando su cinematografía, banda sonora y personajes complejos. Discute cómo la serie aborda temas como adicción, identidad y salud mental.
 
 **Análisis de personajes:**
@@ -85,7 +85,7 @@ Nadia presenta un análisis profundo de la serie HBO "Euphoria", explorando su c
 - Nate Jacobs
 - Maddy Perez
 
-##  Diseño Visual
+## Diseño Visual
 
 El proyecto utiliza una paleta de colores cuidadosamente seleccionada:
 
@@ -95,7 +95,7 @@ El proyecto utiliza una paleta de colores cuidadosamente seleccionada:
 
 Esto crea una experiencia visual cálida y acogedora que refleja el propósito del blog: ser un espacio accesible sobre cultura y arte.
 
-## 🚀 Cómo Acceder
+##  Cómo Acceder
 
 1. **Página Principal**: Abre `index.html` en tu navegador
 2. **Navegación**: Usa el menú superior para acceder a cada sección
@@ -119,4 +119,4 @@ Este proyecto es un trabajo académico final de semestre. Desarrollado como acti
 
 ---
 
-**Gracias por visitar CulturArte. Esperamos que disfrutes explorando los diferentes temas que nuestro equipo ha preparado con cuidado.** ✨
+**Gracias por visitar CulturArte. Esperamos que disfrutes explorando los diferentes temas que nuestro equipo ha preparado con cuidado.** 
