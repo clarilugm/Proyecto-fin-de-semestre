@@ -1,10 +1,10 @@
 # CulturArte - Blog Colaborativo
 
-## 📖 Descripción
+##  Descripción
 
 **CulturArte** es un blog interactivo creado por cuatro estudiantes como proyecto final de semestre para las materias de Front-end y Back-end. Es un espacio digital donde el arte, la cultura y la vida cotidiana se encuentran. Cada integrante del equipo contribuyó con un artículo original sobre temas que le apasionan, combinando investigación, diseño y desarrollo web.
 
-## 👥 Autores
+##  Autores
 
 El proyecto fue desarrollado colaborativamente por:
 
@@ -13,7 +13,7 @@ El proyecto fue desarrollado colaborativamente por:
 - **Clara García** - Artículo sobre Gastronomía: *"La cocina italiana: tradición en cada plato"*
 - **Nadia Rivero** - Artículo sobre Series: *"Euphoria: por qué sigue siendo una de las mejores series"*
 
-## 🌐 Características Principales
+##  Características Principales
 
 - **Diseño responsivo**: Interfaz moderna y adaptable a diferentes dispositivos
 - **Navegación intuitiva**: Menú fácil de usar para acceder a todas las secciones
@@ -22,7 +22,7 @@ El proyecto fue desarrollado colaborativamente por:
 - **Paleta de colores cohesiva**: Diseño cálido y acogedor con tonos tierra y beige
 - **Tipografía elegante**: Uso de fuentes Playfair Display y Montserrat para mayor legibilidad
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **HTML5**: Estructura semántica del contenido
 - **CSS3**: Estilos personalizados y responsive design
@@ -30,7 +30,7 @@ El proyecto fue desarrollado colaborativamente por:
 - **Google Fonts**: Tipografías personalizadas (Playfair Display, Montserrat)
 - **JavaScript**: Interactividad y funcionalidad dinámica
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 Proyecto-fin-de-semestre/
@@ -46,9 +46,9 @@ Proyecto-fin-de-semestre/
     └── post-series.html    # Artículo sobre Euphoria (Nadia)
 ```
 
-## 📝 Contenido del Blog
+##  Contenido del Blog
 
-### 🎵 Música - K-pop Global
+###  Música - K-pop Global
 Noelia explora cómo la industria musical coreana conquistó el mundo. Analiza el fenómeno del K-pop, el impacto de BTS como grupo revolucionario, y cómo logró romper barreras de idioma y cultura para convertirse en un movimiento global.
 
 **Temas cubiertos:**
@@ -57,7 +57,7 @@ Noelia explora cómo la industria musical coreana conquistó el mundo. Analiza e
 - Impacto en la salud mental y autoestima de los fans
 - Influencia en la industria musical internacional
 
-### ✈️ Turismo - Francia
+###  Turismo - Francia
 Ornella nos lleva a descubrir por qué Francia es el país más visitado del mundo. Con más de 100 millones de turistas anuales, explora qué hace especial a este destino y comparte consejos prácticos para viajar.
 
 **Contenido incluido:**
@@ -66,7 +66,7 @@ Ornella nos lleva a descubrir por qué Francia es el país más visitado del mun
 - Datos curiosos sobre el turismo en Francia
 - Sección de comentarios interactiva
 
-### 🍝 Gastronomía - Cocina Italiana
+###  Gastronomía - Cocina Italiana
 Clara profundiza en la cocina italiana, una de las más populares del mundo. Analiza los ingredientes simples pero excepcionales, las recetas tradicionales y los platos icónicos que han conquistado millones de paladares.
 
 **Platos destacados:**
@@ -85,7 +85,7 @@ Nadia presenta un análisis profundo de la serie HBO "Euphoria", explorando su c
 - Nate Jacobs
 - Maddy Perez
 
-## 🎨 Diseño Visual
+##  Diseño Visual
 
 El proyecto utiliza una paleta de colores cuidadosamente seleccionada:
 
@@ -102,18 +102,18 @@ Esto crea una experiencia visual cálida y acogedora que refleja el propósito d
 3. **Artículos**: Haz clic en las tarjetas de publicaciones para leer los artículos completos
 4. **Interacción**: Deja comentarios en los artículos (donde esté disponible)
 
-## 💡 Características Interactivas
+##  Características Interactivas
 
 - **Navbar responsivo**: Menú que se adapta en dispositivos móviles
 - **Sistema de comentarios**: En el artículo de turismo (Francia)
 - **Botones de navegación**: Fácil acceso entre páginas
 - **Tarjetas visuales**: Presentación atractiva de los artículos en la portada
 
-## 📅 Fecha de Creación
+##  Fecha de Creación
 
 Junio 2026
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es un trabajo académico final de semestre. Desarrollado como actividad educativa colaborativa.
 
