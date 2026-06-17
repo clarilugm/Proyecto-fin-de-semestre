@@ -6,7 +6,7 @@
   <title>Recetas</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -63,17 +63,17 @@
         <h4>Platos que no podés dejar de probar</h4>
 
         <p>
-          🍕 <strong>Pizza napolitana:</strong> considerada la pizza original,
+          <strong>Pizza napolitana:</strong> considerada la pizza original,
           nacida en Nápoles y reconocida mundialmente por su masa fina y bordes esponjosos.
         </p>
 
         <p>
-          🍝 <strong>Pasta artesanal:</strong> existen cientos de variedades,
+          <strong>Pasta artesanal:</strong> existen cientos de variedades,
           cada una diseñada para acompañar diferentes tipos de salsa.
         </p>
 
         <p>
-          ☕ <strong>Espresso:</strong> uno de los símbolos más representativos
+          <strong>Espresso:</strong> uno de los símbolos más representativos
           de la cultura italiana.
         </p>
 
@@ -89,13 +89,97 @@
           compartir en familia, disfrutar cada comida y respetar las tradiciones.
         </p>
 
+     <p>
+          La pizza y la pasta forman parte de la alimentación diaria de millones
+          de personas y representan la esencia de la cocina italiana.
+        </p>
+
+        <h4>Ingredientes que hacen la diferencia</h4>
+        
+        <p>
+          <strong>Aceite de oliva:</strong> es uno de los ingredientes más utilizados
+          en la cocina italiana y aporta sabor a una gran variedad de platos.</p>
+
+        <p>
+          <strong>Tomates frescos:</strong> son la base de numerosas salsas y recetas
+          tradicionales que se preparan en todo el país. </p>
+          
+        <p>
+          <strong>Quesos italianos:</strong> variedades como el parmesano, la mozzarella
+          y el mascarpone son reconocidas internacionalmente por su calidad.</p>
+        
+        <h4>Diversidad gastronómica regional</h4>
+        
+        <p>Italia posee una enorme riqueza culinaria gracias a las diferencias entre sus regiones.</p>
+        
+        <p>En el norte predominan platos elaborados con arroz, manteca y quesos, mientras que 
+          en el sur son más frecuentes las recetas a base de pasta, pescado y aceite de oliva.</p>
+          
+          <p>Esta diversidad permite descubrir sabores únicos en cada rincón del país.</p>
+          
+          <h4>Postres tradicionales</h4>
+          
+        <p>
+          <strong>Tiramisú:</strong> uno de los postres italianos más famosos, elaborado
+            con café, queso mascarpone y cacao.</p>
+            
+        <p>
+          <strong>Gelato:</strong> el tradicional helado italiano, conocido por su textura
+          cremosa y gran variedad de sabores.</p>
+              
+        <p><strong>Cannoli:</strong> dulce típico de Sicilia relleno con crema de ricota 
+          endulzada.</p>
+              
+        <h4>Influencia en todo el mundo</h4>
+            
+         <p>La gastronomía italiana ha trascendido fronteras y hoy forma parte de la cultura
+          culinaria de numerosos países.</p>
+              
+        <p>Sus recetas combinan tradición, sencillez y productos de calidad, características
+          que han contribuido a su enorme popularidad internacional.</p>
+              
+        <p>Más allá de la comida, la gastronomía italiana promueve valores como
+          compartir en familia, disfrutar cada comida y respetar las tradiciones.</p>
+            
+            </div>
+
+<div class="caja">
+        <h4>🍝 ¿Cuánto sabés de cocina italiana?</h4>
+
+        <p><strong>1. ¿Dónde nació la pizza?</strong></p>
+        <label><input type="radio" name="q1" value="0"> Roma</label><br>
+        <label><input type="radio" name="q1" value="1"> Nápoles</label><br>
+        <label><input type="radio" name="q1" value="0"> Milán</label>
+
+        <br>
+
+        <p><strong>2. ¿Cuál es el ingrediente principal del pesto?</strong></p>
+        <label><input type="radio" name="q2" value="0"> Perejil</label><br>
+        <label><input type="radio" name="q2" value="1"> Albahaca</label><br>
+        <label><input type="radio" name="q2" value="0"> Orégano</label>
+
+        <br>
+
+        <p><strong>3. ¿Qué café es típico de Italia?</strong></p>
+        <label><input type="radio" name="q3" value="0"> Americano</label><br>
+        <label><input type="radio" name="q3" value="1"> Espresso</label><br>
+        <label><input type="radio" name="q3" value="0"> Capuccino frío</label>
+
+        <br><br>
+
+        <button class="boton-principal" onclick="corregirQuiz()">
+          Ver resultado
+        </button>
+
+        <p id="resultadoQuiz" style="margin-top:10px;font-weight:bold;"></p>
+      </div>
       </div>
 </section>
 
-<footer class="pie">
+<footer>
   © 2026 CulturArte · Bootstrap · JavaScript · HTML & CSS
 </footer>
 
-
+<script src="../scripts/post-comida.js"></script>
 </body>
 </html>
