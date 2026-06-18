@@ -30,15 +30,15 @@
   <div class="hero">
     <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1400&q=80" alt="París" />
     <div class="hero-text">
-      <p style="color:var(--latte); font-size:0.85rem; letter-spacing:2px; text-transform:uppercase;">Viajes · Europa</p>
+      <p>Viajes · Europa</p>
       <h1>Francia: el país más visitado del mundo</h1>
-      <p style="color:var(--cream); font-size:0.9rem;">Por Ornella Balduvino · Junio 2026</p>
+      <p>Por Ornella Balduvino · Junio 2026</p>
     </div>
   </div>
 
   <!-- Artículo -->
   <div class="article">
-    <a href="../index.html" style="color:var(--caramel); font-size:0.9rem;">← Volver al inicio</a>
+    <a href="../index.html">← Volver al inicio</a>
 
     <h2>¿Por qué todo el mundo quiere ir a Francia?</h2>
     <p>Francia lleva más de 30 años en el primer puesto del ranking mundial de turismo. En 2024 se convirtió en el primer país de la historia en superar los 100 millones de turistas en un año. No es solo la Torre Eiffel: es el arte, la gastronomía, la moda, el idioma. Francia sabe muy bien lo que es y no se disculpa por ello.</p>
@@ -84,22 +84,7 @@
     © 2026 CulturArte · Bootstrap · JavaScript · HTML & CSS
   </footer>
 
-  <script>
-      const datos = [
-        "Francia lleva más de 30 años siendo el país más visitado del mundo.",
-        "En 2024 superó los 100 millones de turistas en un solo año, un récord histórico.",
-        "A pesar de ser el más visitado, Estados Unidos genera casi 3 veces más dinero en turismo.",
-        "En agosto, hasta los propios franceses se van de vacaciones y París se vacía.",
-        "Un almuerzo en Francia puede durar dos horas. Pedir la cuenta antes de tiempo se considera de mala educación."
-      ];
-
-      let indice = 0;
-
-      function mostrarDato() {
-        indice = (indice + 1) % datos.length;
-        document.getElementById("dato").textContent = datos[indice];
-      }
-    </script>
+  <script src="../scripts/post-turismo.js"></script>
 
   </body>
 </html>
