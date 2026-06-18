@@ -284,6 +284,19 @@ body {
   margin-bottom: 12px;
 }
 
+.comentarios {
+    max-width: 600px;
+    margin: 40px auto;
+}
+.comentario strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#lista-comentarios {
+    margin-top: 20px;
+}
+
 
 /* =========================================
    ESTILOS: POST SERIES
