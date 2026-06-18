@@ -12,3 +12,24 @@
         indice = (indice + 1) % datos.length;
         document.getElementById("dato").textContent = datos[indice];
       }
+
+
+
+
+      const form = document.getElementById("form-comentario");
+const lista = document.getElementById("lista-comentarios");
+
+form.addEventListener("submit", function(evento) {
+  evento.preventDefault();
+
+  const nombre = document.getElementById("nombre").value;
+  const mensaje = document.getElementById("mensaje").value;
+
+  const nuevoComentario = document.createElement("div");
+  nuevoComentario.className = "comentario";
+  nuevoComentario.innerHTML = "<strong>" + nombre + "</strong><p>" + mensaje + "</p>";
+
+  lista.appendChild(nuevoComentario);
+
+  form.reset();
+});

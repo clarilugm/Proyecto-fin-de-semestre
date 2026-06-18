@@ -69,15 +69,17 @@
 </div>
 
     <!-- Comentarios -->
-    <div class="comentarios">
-      <h3>Comentarios</h3>
-      <input type="text" id="nombre" placeholder="Tu nombre" />
-      <textarea id="texto" placeholder="Escribí tu comentario..."></textarea>
-      <p id="error-msg">Completá tu nombre y comentario.</p>
-      <button id="btn-comentar">Publicar</button>
-      <div id="lista-comentarios"></div>
-    </div>
-  </div>
+<div class="comentarios">
+  <h3>Comentarios</h3>
+
+  <div id="lista-comentarios"></div>
+
+  <form id="form-comentario">
+    <input type="text" id="nombre" placeholder="Tu nombre" required>
+    <textarea id="mensaje" placeholder="Escribí tu comentario..." required></textarea>
+    <button type="submit">Publicar comentario</button>
+  </form>
+</div>
 
   <!-- Footer -->
   <footer class="pie">
