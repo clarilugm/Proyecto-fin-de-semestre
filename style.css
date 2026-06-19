@@ -284,6 +284,19 @@ body {
   margin-bottom: 12px;
 }
 
+.comentarios {
+    max-width: 600px;
+    margin: 40px auto;
+}
+.comentario strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#lista-comentarios {
+    margin-top: 20px;
+}
+
 
 /* =========================================
    ESTILOS: POST SERIES
@@ -432,36 +445,64 @@ body {
 }
 
 .comentarios {
-  margin-top: 2.5rem;
-  border-top: 2px solid #dfc09a;
-  padding-top: 1.5rem;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
 }
 
 .comentarios h3 {
-  font-family: 'Playfair Display', serif;
-  color: #3d1f0d;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
+  color: #333;
 }
 
-.comentarios input,
-.comentarios textarea {
-  width: 100%;
-  background: white;
-  border: 1px solid #c8956a;
-  border-radius: 6px;
-  padding: 10px 14px;
-  margin-bottom: 11px;
-  color: #6b3320;
+#lista-comentarios {
+  margin-bottom: 20px;
 }
 
-.comentarios textarea {
+.comentario {
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.comentario strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #185FA5;
+}
+
+.comentario p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+}
+
+#form-comentario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#form-comentario input,
+#form-comentario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+#form-comentario textarea {
+  min-height: 80px;
   resize: vertical;
-  min-height: 90px;
 }
 
-#btn-comentar {
-  background: #3d1f0d;
-  color: #dfc09a;
+#form-comentario button {
+  background: #185FA5;
+  color: white;
   border: none;
   padding: 8px 24px;
   border-radius: 6px;
