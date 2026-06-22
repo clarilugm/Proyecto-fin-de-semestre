@@ -143,43 +143,81 @@
             
             </div>
 
-<div class="caja">
-        <h4>🍝 ¿Cuánto sabés de cocina italiana?</h4>
 
-        <p><strong>1. ¿Dónde nació la pizza?</strong></p>
-        <label><input type="radio" name="q1" value="0"> Roma</label><br>
-        <label><input type="radio" name="q1" value="1"> Nápoles</label><br>
-        <label><input type="radio" name="q1" value="0"> Milán</label>
+<div class="quizzes">
 
-        <br>
+  <div class="caja">
+    <h4>🍝 ¿Cuánto sabés de cocina italiana?</h4>
 
-        <p><strong>2. ¿Cuál es el ingrediente principal del pesto?</strong></p>
-        <label><input type="radio" name="q2" value="0"> Perejil</label><br>
-        <label><input type="radio" name="q2" value="1"> Albahaca</label><br>
-        <label><input type="radio" name="q2" value="0"> Orégano</label>
+    <p><strong>1. ¿Dónde nació la pizza?</strong></p>
+    <label><input type="radio" name="q1" value="0"> Roma</label><br>
+    <label><input type="radio" name="q1" value="1"> Nápoles</label><br>
+    <label><input type="radio" name="q1" value="0"> Milán</label><br>
 
-        <br>
+    <br>
 
-        <p><strong>3. ¿Qué café es típico de Italia?</strong></p>
-        <label><input type="radio" name="q3" value="0"> Americano</label><br>
-        <label><input type="radio" name="q3" value="1"> Espresso</label><br>
-        <label><input type="radio" name="q3" value="0"> Capuccino frío</label>
+    <p><strong>2. ¿Cuál es el ingrediente principal del pesto?</strong></p>
+    <label><input type="radio" name="q2" value="0"> Perejil</label><br>
+    <label><input type="radio" name="q2" value="1"> Albahaca</label><br>
+    <label><input type="radio" name="q2" value="0"> Orégano</label><br>
 
-        <br><br>
+    <br>
 
-        <button class="boton-principal" onclick="corregirQuiz()">
-          Ver resultado
-        </button>
+    <p><strong>3. ¿Qué café es típico de Italia?</strong></p>
+    <label><input type="radio" name="q3" value="0"> Americano</label><br>
+    <label><input type="radio" name="q3" value="1"> Espresso</label><br>
+    <label><input type="radio" name="q3" value="0"> Capuccino frío</label><br>
 
-        <p id="resultadoQuiz" style="margin-top:10px;font-weight:bold;"></p>
-      </div>
-      </div>
+    <br>
+
+    <button class="boton-principal" onclick="corregirQuiz()">
+      Ver resultado
+    </button>
+
+    <p id="resultadoQuiz" style="margin-top:10px;font-weight:bold;"></p>
+  </div>
+
+  <div class="caja">
+    <h4>🍦¿Qué postre italiano sos?</h4>
+
+    <p><strong>1.</strong></p>
+    <label><input type="radio" name="q1-postre" value="tiramisu"> Me gusta el café</label><br>
+    <label><input type="radio" name="q1-postre" value="gelato"> Me gusta lo dulce y fresco</label><br>
+    <label><input type="radio" name="q1-postre" value="cannoli"> Me gusta lo tradicional</label><br>
+
+    <br>
+
+    <p><strong>2.</strong></p>
+    <label><input type="radio" name="q2-postre" value="tiramisu"> Prefiero sabores intensos</label><br>
+    <label><input type="radio" name="q2-postre" value="gelato"> Prefiero cosas suaves</label><br>
+    <label><input type="radio" name="q2-postre" value="cannoli"> Prefiero lo clásico</label><br>
+
+    <br>
+
+    <p><strong>3.</strong></p>
+    <label><input type="radio" name="q3-postre" value="tiramisu"> Me gusta lo elegante</label><br>
+    <label><input type="radio" name="q3-postre" value="gelato"> Me gusta lo divertido</label><br>
+    <label><input type="radio" name="q3-postre" value="cannoli"> Me gusta lo tradicional</label><br>
+
+    <br><br>
+
+    <button class="boton-principal" onclick="corregirQuizPostre()">
+      Ver resultado
+    </button>
+
+    <p id="resultadoQuizPostre" style="margin-top:10px;font-weight:bold;"></p>
+  </div>
+
+</div>
+      
 </section>
+
 
 <footer>
   © 2026 CulturArte · Bootstrap · JavaScript · HTML & CSS
 </footer>
 
 <script src="../scripts/post-comida.js"></script>
+
 </body>
 </html>
