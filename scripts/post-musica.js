@@ -1,24 +1,19 @@
-const btn = document.getElementById("btn-comentar");
-const nombre = document.getElementById("nombre");
-const texto = document.getElementById("texto");
-const error = document.getElementById("error-msg");
+const form = document.getElementById("form-comentario");
 const lista = document.getElementById("lista-comentarios");
 
-btn.addEventListener("click", () => {
+form.addEventListener("submit", function(evento) {
+  evento.preventDefault();
 
-    if (nombre.value.trim() === "" || texto.value.trim() === "") {
-        error.style.display = "block";
-        return;
-    }
-    error.style.display = "none";
-    lista.innerHTML += `
-        <div class="comentario">
-            <strong>${nombre.value}</strong>
-            <p>${texto.value}</p>
-        </div>
-    `;
-    nombre.value = "";
-    texto.value = "";
+  const nombre = document.getElementById("nombre").value;
+  const mensaje = document.getElementById("mensaje").value;
+
+  const nuevoComentario = document.createElement("div");
+  nuevoComentario.className = "comentario";
+  nuevoComentario.innerHTML = "<strong>" + nombre + "</strong><p>" + mensaje + "</p>";
+
+  lista.appendChild(nuevoComentario);
+
+  form.reset();
 });
 
 const btnRandom = document.getElementById('btn-random-song');
