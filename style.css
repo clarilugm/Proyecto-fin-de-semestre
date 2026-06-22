@@ -296,6 +296,22 @@ body {
     margin-top: 20px;
 }
 
+.repro-portada {
+  max-width: 150px;
+  height: auto;
+  margin: 12px auto;
+  display: none;
+  border-radius: 8px;
+}
+
+.card-musica {
+  max-width: 680px;
+}
+
+.audio-hidden {
+  display: none;
+}
+
 
 /* =========================================
    ESTILOS: POST SERIES
