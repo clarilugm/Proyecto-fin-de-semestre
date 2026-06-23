@@ -341,11 +341,10 @@ background: #185FA5;
   height: 100%;
   object-fit: cover;
 }
-
 .hero-texto {
   position: absolute;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 32px;
+  left: 32px;
   color: white;
 }
 
@@ -373,8 +372,8 @@ background: #185FA5;
 
 .articulo {
   max-width: 720px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 32px auto;
+  padding: 0 16px;
 }
 
 .articulo p {
