@@ -243,7 +243,9 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
-
+.card-body {
+    color: #6b3320;
+}
 .banner {
   width: 100%;
   height: 500px;
@@ -258,10 +260,11 @@ body {
   display: block;
 }
 
-.img-bts1 {
-  width: 100%;
-  height: auto;
- 
+.img-bts-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .texto-post {
@@ -310,6 +313,17 @@ body {
 
 .audio-hidden {
   display: none;
+}
+.seccion-bts-full .seccion-titulo {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#btn-random-song {
+background: #185FA5;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 6px;
 }
 
 
