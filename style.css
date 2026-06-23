@@ -456,7 +456,7 @@ background: #185FA5;
 
 .article {
   max-width: 720px;
-  margin: 2rem auto;
+  margin: 32px auto;
   padding: 0 16px;
 }
 
@@ -470,7 +470,7 @@ background: #185FA5;
 
 .curiosidades {
   text-align: center;
-  padding: 2rem;
+  padding: 32px;
   border: 1px solid #ddd;
   border-radius: 12px;
 }
