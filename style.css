@@ -534,6 +534,15 @@ body {
   margin-left: 8px;
 }
 
+.pie {
+  background-color: #3d1f0d;
+  color: #c8956a;
+  text-align: center;
+  padding: 12px;
+  margin-top: 48px;
+  font-size: 13px;
+}
+
 
 /* =========================================
    ESTILOS: POST COMIDA
