@@ -243,7 +243,9 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
-
+.card-body {
+    color: #6b3320;
+}
 .banner {
   width: 100%;
   height: 500px;
@@ -258,10 +260,11 @@ body {
   display: block;
 }
 
-.img-bts1 {
-  width: 100%;
-  height: auto;
- 
+.img-bts-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .texto-post {
@@ -294,6 +297,33 @@ body {
 
 #lista-comentarios {
     margin-top: 20px;
+}
+
+.repro-portada {
+  max-width: 150px;
+  height: auto;
+  margin: 12px auto;
+  display: none;
+  border-radius: 8px;
+}
+
+.card-musica {
+  max-width: 680px;
+}
+
+.audio-hidden {
+  display: none;
+}
+.seccion-bts-full .seccion-titulo {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#btn-random-song {
+background: #185FA5;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 6px;
 }
 
 
@@ -609,46 +639,74 @@ body {
 }
 
 
-.badge-tag { display: inline-block; background: #7c4a1e; color: white; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+.badge-tag {
+  display: inline-block;
+  background: #7c4a1e;
+  color: white;
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
 
+.post-content h4 {
+  font-family: "Playfair Display", serif;
+  color: #2d1a0e;
+  font-size: 1.15rem;
+  margin: 1.8rem 0 0.5rem;
+}
 
-.post-content h4 { font-family: "Playfair Display", serif; color: #2d1a0e; font-size: 1.15rem; margin: 1.8rem 0 0.5rem; }
-.post-content p { font-size: 0.97rem; line-height: 1.8; color: #3d2008; margin-bottom: 0.6rem; }
+.post-content p {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: #3d2008;
+  margin-bottom: 0.6rem;
+}
 
+.quizzes {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 
-.caja { background: white; border: 1.5px solid #e2cdb0; border-radius: 14px; padding: 1.5rem; margin-top: 2rem; }
-.caja h4 { font-family: "Playfair Display", serif; color: #2d1a0e; margin-bottom: 1rem; font-size: 1.1rem; }
+.caja {
+  background: white;
+  border: 1.5px solid #e2cdb0;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-top: 2rem;
 
+  flex: 1;
+  max-width: 500px;
+}
 
-.quiz-option { display: block; width: 100%; text-align: left; background: #fdf8f2; border: 1.5px solid #e2cdb0; color: #3d2008; border-radius: 8px; padding: 0.6rem 1rem; margin-bottom: 0.45rem; font-size: 0.88rem; cursor: pointer; font-family: "Montserrat", sans-serif; }
-.quiz-option:hover:not(:disabled) { border-color: #7c4a1e; }
-.quiz-option.correct   { background: #d4edda; border-color: #28a745; color: #155724; }
-.quiz-option.incorrect { background: #f8d7da; border-color: #dc3545; color: #721c24; }
+.caja h4 {
+  font-family: "Playfair Display", serif;
+  color: #2d1a0e;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
 
-.reaction-btn { background: #fdf8f2; border: 1.5px solid #e2cdb0; border-radius: 10px; padding: 0.6rem 1rem; font-size: 1.15rem; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 0.12rem; }
-.reaction-btn:hover, .reaction-btn.active { border-color: #7c4a1e; background: white; }
-.reaction-btn .count { font-size: 0.73rem; font-weight: 700; color: #7c4a1e; }
+.boton-principal {
+  background: #7c4a1e;
+  color: white;
+  border: none;
+  padding: 0.65rem 1.6rem;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: background 0.2s;
+}
 
-
-.rec-resultado { background: #fdf8f2; border: 1.5px solid #e2cdb0; border-radius: 10px; padding: 1rem 1.2rem; margin-top: 1rem; }
-.rec-resultado strong { color: #7c4a1e; }
-.rec-resultado p { font-size: 0.87rem; margin: 0.2rem 0 0; }
-
-.control-porciones { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
-.btn-porcion { background: white; border: 1.5px solid #e2cdb0; color: #7c4a1e; border-radius: 50%; width: 34px; height: 34px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: grid; place-items: center; }
-.btn-porcion:hover { background: #7c4a1e; color: white; }
-#num-porciones { font-size: 1.2rem; font-weight: 700; color: #2d1a0e; min-width: 2rem; text-align: center; }
-.lista-ingredientes { list-style: none; padding: 0; }
-.lista-ingredientes li { background: #fdf8f2; border: 1px solid #e2cdb0; border-radius: 8px; padding: 0.5rem 1rem; margin-bottom: 0.35rem; display: flex; justify-content: space-between; font-size: 0.87rem; }
-.lista-ingredientes li strong { color: #7c4a1e; }
-
-.form-control:focus { border-color: #e2cdb0; box-shadow: 0 0 0 0.18rem rgba(124,74,30,0.15); }
-.comentario { background: white; border: 1px solid #e2cdb0; border-radius: 8px; padding: 0.75rem 1rem; margin-top: 0.6rem; }
-.comentario strong { color: #7c4a1e; font-size: 0.87rem; }
-.comentario p { margin: 0.12rem 0 0; font-size: 0.84rem; }
-
-.boton-principal { background: #7c4a1e; color: white; border: none; padding: 0.65rem 1.6rem; border-radius: 999px; font-size: 0.92rem; font-weight: 700; cursor: pointer; font-family: "Montserrat", sans-serif; transition: background 0.2s; }
-.boton-principal:hover { background: #c06b3a; }
+.boton-principal:hover {
+  background: #c06b3a;
+}
 
 footer {
   background-color: #3d1f0d;
