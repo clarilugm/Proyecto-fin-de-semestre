@@ -581,18 +581,18 @@ background: #185FA5;
 .cabezal-post {
   background: var(--espresso);
   color: white;
-  padding: 2.5rem 2rem;
+  padding: 40px 32px;
   text-align: center;
 }
 
 .cabezal-post h1 {
   font-family: "Playfair Display", serif;
-  font-size: clamp(1.6rem, 4vw, 2.4rem);
-  margin-bottom: 0.4rem;
+  font-size: 32px;
+  margin-bottom: 6px;
 }
 
 .cabezal-post .meta {
-  font-size: 0.85rem;
+  font-size: 14px;
   opacity: 0.85;
 }
 
@@ -600,9 +600,9 @@ background: #185FA5;
   display: inline-block;
   color: var(--espresso);
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: 14px;
   font-weight: 700;
-  margin-bottom: 1.2rem;
+  margin-bottom: 19px;
 }
 
 .volver:hover {
@@ -629,45 +629,44 @@ background: #185FA5;
 
 .texto-portada-comida h1 {
   font-family: "Playfair Display", serif;
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  margin-bottom: 0.5rem;
+  font-size: 48px;
+  margin-bottom: 8px;
 }
 
 .texto-portada-comida p {
-  font-size: 1rem;
+  font-size: 16px;
   opacity: 0.9;
 }
-
 
 .badge-tag {
   display: inline-block;
   background: #7c4a1e;
   color: white;
   border-radius: 999px;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.7rem;
+  padding: 3px 11px;
+  font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
 }
 
 .post-content h4 {
   font-family: "Playfair Display", serif;
   color: #2d1a0e;
-  font-size: 1.15rem;
-  margin: 1.8rem 0 0.5rem;
+  font-size: 18px;
+  margin: 29px 0 8px;
 }
 
 .post-content p {
-  font-size: 0.97rem;
+  font-size: 15px;
   line-height: 1.8;
   color: #3d2008;
-  margin-bottom: 0.6rem;
+  margin-bottom: 10px;
 }
 
 .quizzes {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -677,8 +676,8 @@ background: #185FA5;
   background: white;
   border: 1.5px solid #e2cdb0;
   border-radius: 14px;
-  padding: 1.5rem;
-  margin-top: 2rem;
+  padding: 24px;
+  margin-top: 32px;
 
   flex: 1;
   max-width: 500px;
@@ -687,17 +686,17 @@ background: #185FA5;
 .caja h4 {
   font-family: "Playfair Display", serif;
   color: #2d1a0e;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 
 .boton-principal {
   background: #7c4a1e;
   color: white;
   border: none;
-  padding: 0.65rem 1.6rem;
+  padding: 10px 26px;
   border-radius: 999px;
-  font-size: 0.92rem;
+  font-size: 15px;
   font-weight: 700;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
